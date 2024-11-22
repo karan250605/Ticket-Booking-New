@@ -16,10 +16,10 @@ class TicketShow:
                     break
         #print(bln)  
         print("------------------------------------------------------------------------------")
-        print("                          Ankush Nag Bus Travel                               ")
+        print("                          KMPT Bus Travels                              ")
         print("------------------------------------------------------------------------------")
         print()
-        print(" e_Ticket :", "Nagpur Address              : Hingna Road Priyadarshini T-Point")
+        print(" e_Ticket :", "Trichy Address              : Main Road Priyadarshini T-Point")
         print("           ", "Phone No\Mob No             : 8000800088,8888880000            ")
         print()
         print("",bln[3],"------------->",bln[4],"            ","        Passenger Id:",bln[0])
