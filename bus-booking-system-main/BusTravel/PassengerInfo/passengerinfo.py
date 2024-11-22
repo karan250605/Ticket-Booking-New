@@ -70,7 +70,7 @@ class PassengerRegistration():
                     del seatNoList[self.seatNo+1]
                     count = len(seatNoList)
                 else:
-                    print("Ticket Allready Booked")
+                    print("Ticket Already Booked")
                 print("Do You Want To Book One More Seat Enter (Yes/No)") 
                 y = input("") 
                 if y == "Yes":
@@ -82,16 +82,16 @@ class PassengerRegistration():
                 print("Don't Choose a Seat Number Which is Not Available")    
         # Booking Seat END
         
-        print(" 1. AC BUS     = 500 Fare")
-        print(" 2. NON AC BUS = 300 Fare")
+        print(" 1. AC BUS     = 5000 Fare")
+        print(" 2. NON AC BUS = 3000 Fare")
         self.busType = int(input("Select Bus Type  :"))
         
         if self.busType == 1:
             self.selectBusType = "AC BUS"
-            self.busFare = self.noOfPassenger*500
+            self.busFare = self.noOfPassenger*5000
         elif self.busType == 2:
             self.selectBusType = "NON AC BUS"
-            self.busFare = self.noOfPassenger*300
+            self.busFare = self.noOfPassenger*3000
            
         # Booking Seat END
 #=============================================
