@@ -23,7 +23,7 @@ class PassengerRegistration():
         print("4: Madurai")
 
         # Enter departure Location Name START
-        self.dl = int(input("Enter Departure Location"))
+        self.dl = int(input("Enter Departure Location :"))
         if self.dl == 1:
             self.departureLocation = "Trichy"
         elif self.dl == 2:
