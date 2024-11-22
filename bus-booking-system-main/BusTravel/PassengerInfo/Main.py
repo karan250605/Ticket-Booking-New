@@ -6,7 +6,7 @@ from admin import*
 global ch  # declared global variable
 
 print("---------------------------------------------------")
-print("           Welcome To KTM Bus Travel        ")
+print("           Welcome To KMPT Bus Travels       ")
 print("---------------------------------------------------")
 print()
 
