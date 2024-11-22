@@ -16,40 +16,40 @@ class PassengerRegistration():
         
     def getPassengerInfo(self):
         self.passengerName     = input("Enter Passenger Name          :")
-        self.noOfPassenger     = int(input("Enter Number Of Passenger :"))
-        print("1: Nagpur")
-        print("2: Pune")
-        print("3: Mumbai")
-        print("4: Delhi")
+        self.noOfPassenger     = int(input("Enter Number Of Passengers :"))
+        print("1: Trichy")
+        print("2: Chennai")
+        print("3: Thanjavur")
+        print("4: Madurai")
 
         # Enter departure Location Name START
         self.dl = int(input("Enter Departure Location"))
         if self.dl == 1:
-            self.departureLocation = "Nagpur"
+            self.departureLocation = "Trichy"
         elif self.dl == 2:
-            self.departureLocation = "Pune"
+            self.departureLocation = "Chennai"
         elif self.dl == 3:
-            self.departureLocation = "Mumbai"
+            self.departureLocation = "Thanjavur"
         elif self.dl == 4:
-            self.departureLocation = "Delhi"
+            self.departureLocation = " Madurai"
         else:
             print("Please Enter correct choice  :")
         # departure Location Name END
         
-        print("1: Gujrat")
-        print("2: Raipur")
-        print("3: Patna")
-        print("4: Bhopal")
+        print("1: Karur")
+        print("2: Ooty")
+        print("3: Erode")
+        print("4: Coimbatore")
         # Enter destination Location Name START
         self.dpl = int(input("Enter Destination Location  :"))
         if self.dpl == 1:
-            self.destinationLocation = "Gujrat"
+            self.destinationLocation = "Karur"
         elif self.dpl == 2:
-            self.destinationLocation = "Raipur"
+            self.destinationLocation = "Ooty"
         elif self.dpl == 3:
-            self.destinationLocation = "Patna"
+            self.destinationLocation = "Erode"
         elif self.dpl == 4:
-            self.destinationLocation = "Bhopal"
+            self.destinationLocation = "Coimbatore"
         # Enter destination Location Name END
 
         self.ddmmyyyy = input("Enter Date of Joiurney Like 07-05-1992   :")  #Date of Journey
