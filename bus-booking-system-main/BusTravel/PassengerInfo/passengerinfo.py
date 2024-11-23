@@ -52,7 +52,7 @@ class PassengerRegistration():
             self.destinationLocation = "Coimbatore"
         # Enter destination Location Name END
 
-        self.ddmmyyyy = input("Enter Date of Journey Like 07-05-1992   :")  #Date of Journey
+        self.ddmmyyyy = input("Enter Date of Journey Like 07-05-1990   :")  #Date of Journey
 
         #Booking Seat Start 
         print("[1]__[2]__[3]__[4]__[5]__[6]__[7]__[8]__[9]__[10]")
@@ -62,7 +62,7 @@ class PassengerRegistration():
         seatNoList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
         self.bookingList=[]
         while True:
-            self.seatNo = int(input("Choose a Seat Number & Max To Max You Can Book Two Ticket  :"))
+            self.seatNo = int(input("Choose a seat number and maximum you can book two tickets  :"))
             if self.seatNo <=30:
                 
                 if  self.seatNo in seatNoList:
