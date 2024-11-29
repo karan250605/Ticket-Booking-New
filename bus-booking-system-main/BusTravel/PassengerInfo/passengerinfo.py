@@ -52,7 +52,7 @@ class PassengerRegistration():
             self.destinationLocation = "Coimbatore"
         # Enter destination Location Name END
 
-        self.ddmmyyyy = input("Enter Date of Journey Like 07-05-1990   :")  #Date of Journey
+        self.ddmmyyyy = input("Enter Date of Journey Like 03-06-1990   :")  #Date of Journey
 
         #Booking Seat Start 
         print("[1]__[2]__[3]__[4]__[5]__[6]__[7]__[8]__[9]__[10]")
